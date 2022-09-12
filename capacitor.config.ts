@@ -1,0 +1,29 @@
+import { CapacitorConfig } from '@capacitor/cli';
+
+const config: CapacitorConfig = {
+  appId: 'io.ionic.starter',
+  appName: 'test datetime',
+  webDir: 'www',
+  cordova: {
+    preferences: {
+      ScrollEnabled: 'false',
+      'android-minSdkVersion': '22',
+      'android-targetSdkVersion': '29',
+      AndroidPersistentFileLocation: 'Compatibility',
+      BackupWebStorage: 'none',
+      Orientation: 'portrait',
+      KeyboardResizeMode: 'ionic',
+      Scheme: 'https',
+      'cordova.plugins.diagnostic.modules':
+        'CAMERA MICROPHONE EXTERNAL_STORAGE NOTIFICATIONS',
+      WKWebViewOnly: 'true',
+      BackgroundColor: '0xff161617'
+    }
+  },
+  server: {
+    iosScheme: 'ionic',
+    androidScheme: 'https'
+  }
+};
+
+export default config;

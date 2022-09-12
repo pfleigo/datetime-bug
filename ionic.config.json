@@ -1,0 +1,7 @@
+{
+  "name": "test-datetime",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

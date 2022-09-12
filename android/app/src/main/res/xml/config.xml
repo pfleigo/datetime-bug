@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <access origin="*" />
+  
+  
+  <preference name="ScrollEnabled" value="false" />
+  <preference name="android-minSdkVersion" value="22" />
+  <preference name="android-targetSdkVersion" value="29" />
+  <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+  <preference name="BackupWebStorage" value="none" />
+  <preference name="Orientation" value="portrait" />
+  <preference name="KeyboardResizeMode" value="ionic" />
+  <preference name="Scheme" value="https" />
+  <preference name="cordova.plugins.diagnostic.modules" value="CAMERA MICROPHONE EXTERNAL_STORAGE NOTIFICATIONS" />
+  <preference name="WKWebViewOnly" value="true" />
+  <preference name="BackgroundColor" value="0xff161617" />
+</widget>
