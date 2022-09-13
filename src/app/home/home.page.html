@@ -11,5 +11,10 @@
     </ion-toolbar>
   </ion-header>
 
-  <ion-datetime presentation="date-time" locale="de-DE"></ion-datetime>
+  <ion-datetime
+    presentation="date-time"
+    locale="de-DE"
+    [(ngModel)]="time"
+  ></ion-datetime>
+  <ion-input readonly [value]="format(time)"></ion-input>
 </ion-content>
